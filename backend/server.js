@@ -41,7 +41,9 @@ async function startServer() {
       console.log('✅ MongoDB Atlas connected');
       console.log('   Database:', mongoose.connection.name);
     } catch (err) {
-      console.error('❌ MongoDB Atlas failed:', err.message);
+      // console.error('❌ MongoDB Atlas failed:', err.message);
+      console.error('❌ MongoDB Atlas failed:');
+      console.error(err);
       console.log('');
       console.log('📋 QUICK FIX FOR querySrv ENOTFOUND:');
       console.log('   1. Open MongoDB Atlas → Network Access');
