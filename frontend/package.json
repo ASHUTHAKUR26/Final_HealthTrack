@@ -1,0 +1,27 @@
+{
+  "name": "health-track-frontend",
+  "version": "1.0.0",
+  "description": "Health Track System - React Frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "chart.js": "^4.3.0",
+    "framer-motion": "^10.12.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.30.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.2"
+  }
+}
