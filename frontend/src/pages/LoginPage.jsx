@@ -258,7 +258,7 @@ export default function LoginPage() {
                 <FiMail size={16} className="shrink-0 text-white/40" />
                 <input id={emailId} className="ht-input w-full bg-transparent py-3 text-[14px] text-white placeholder-white/30 outline-none" type="email" required
                   value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })}
-                  onFocus={() => setFocusField('email')} onBlur={() => setFocusField(null)} placeholder="you@example.com" autoComplete="email" />
+                  onFocus={() => setFocusField('email')} onBlur={() => setFocusField(null)} placeholder="Enter your email" autoComplete="email" />
               </div>
             </motion.div>
 
