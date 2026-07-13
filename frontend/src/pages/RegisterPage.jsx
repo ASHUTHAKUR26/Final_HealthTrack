@@ -90,7 +90,7 @@ export default function RegisterPage() {
               <label style={{ color: 'var(--color-muted)', fontSize: '11px', fontWeight: 700, display: 'block', marginBottom: '7px', letterSpacing: '0.07em' }}>FULL NAME</label>
               <input className="hts-input" required value={form.name}
                 onChange={e => setForm({ ...form, name: e.target.value })}
-                placeholder="Anurag Sharma" autoComplete="name" />
+                placeholder="Enter full name" autoComplete="name" />
             </div>
             <div>
               <label style={{ color: 'var(--color-muted)', fontSize: '11px', fontWeight: 700, display: 'block', marginBottom: '7px', letterSpacing: '0.07em' }}>EMAIL ADDRESS</label>
