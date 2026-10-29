@@ -36,7 +36,7 @@ async function startServer() {
         serverSelectionTimeoutMS: 10000,
         connectTimeoutMS: 10000,
         socketTimeoutMS: 10000,
-        family: 4, // Force IPv4 — fixes most ENOTFOUND errors
+        
       });
       console.log('✅ MongoDB Atlas connected');
       console.log('   Database:', mongoose.connection.name);
